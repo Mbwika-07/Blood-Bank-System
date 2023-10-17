@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/05.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+    <p class="lead text-center">"The Blood You Donate Gives Someone Another Chance at Life. One Day That Someone May Be a Close Relative, a Friend, a Loved One—Or Even You."
+      </p>
+    
+    <p class="text-center">Every donor is a hero </p>
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
